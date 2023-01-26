@@ -2,3 +2,52 @@
 	margin: 0px;
 	padding:0px;
 }
+
+body {
+	font-family: Helvetica, sans-serif;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: .9;
+}
+	
+/*The Nav Bar */
+
+.nav-item {
+	margin-right: 2rem;
+}
+.nav-item  a {
+	text-decoration: underline;
+	color: seashell;
+	opacity: .9;
+
+}
+
+
+.nav-list {
+	display: flex;
+	justify-content: flex-end;
+	align-items:center;
+	list-style: none;
+}
+
+.nav-item:first-child {
+	margin-right:auto;
+	margin-left:10px;
+}
+	
+/*Mission Div*/
+
+.mission {
+	background-image: url('mission.jpg');
+	width: 1200px;
+	height: 700px;
+	display: flex;
+	flex-direction: column;
+}
+
+.mission-text{
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
