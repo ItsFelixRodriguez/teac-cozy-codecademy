@@ -40,14 +40,96 @@ body {
 
 .mission {
 	background-image: url('mission.jpg');
-	width: 1200px;
+	max-width: 1200px;
 	height: 700px;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	margin: auto;
 }
 
 .mission-text{
+/*	margin-top: 350px;*/
+	background-color: black;
 	text-align: center;
 	justify-content: center;
 	align-items: center;
+	border: 10px solid black;
+	line-height: 1.1;
 }
+
+/*Tea of the Month Section*/
+.tea-section {
+	padding-top: 20px;
+	max-width: 1000px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+
+}
+.tea-list {
+	display: inline-flex;
+	flex-wrap: wrap;
+	list-style: none;
+	margin: 10px;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.tea-item {
+	margin: 10px;
+}
+
+.tea-item img {
+	height: 200px;
+	width: 300px;
+}
+
+/*Locations*/
+.where {
+	margin-top:15px;
+}
+.location {
+	background-image: url('location.jpg');
+	min-height: 500px;
+	max-width: 1200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content:center;
+	margin: auto;
+}
+
+.store-list {
+
+	display: inline-flex;
+	justify-items: space-between;
+	align-items: center;
+	margin: 15px;
+}
+
+.store-list li {
+	list-style: none;
+}
+
+.store-item {
+	background-color: black;
+	margin: 40px;
+	text-align: center;
+	justify-content: space-evenly;
+	max-width:300px;
+	line-height: 2;
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+
